@@ -1,6 +1,6 @@
 def calcular_frete(subtotal):
     """REQ-01: taxa padrão. REQ-02: frete grátis."""
-    if subtotal >= 200.00:
+    if subtotal >= 250.00:
         return 0.00
     return 15.00
 
